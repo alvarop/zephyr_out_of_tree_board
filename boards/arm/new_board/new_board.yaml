@@ -1,5 +1,5 @@
-identifier: nrf52840dk_nrf52840
-name: nRF52840-DK-NRF52840
+identifier: new_board 
+name: new-board 
 type: mcu
 arch: arm
 toolchain:

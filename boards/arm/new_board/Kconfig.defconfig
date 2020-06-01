@@ -3,10 +3,10 @@
 # Copyright (c) 2016 Nordic Semiconductor ASA
 # SPDX-License-Identifier: Apache-2.0
 
-if BOARD_NRF52840DK_NRF52840
+if BOARD_NEW_BOARD
 
 config BOARD
-	default "nrf52840dk_nrf52840"
+	default "new_board"
 
 if USB
 
@@ -18,4 +18,4 @@ config USB_DEVICE_STACK
 
 endif # USB
 
-endif # BOARD_NRF52840DK_NRF52840
+endif # BOARD_NEW_BOARD
